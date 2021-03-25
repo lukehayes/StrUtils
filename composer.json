@@ -2,8 +2,15 @@
     "name": "lukehayes/str-utils",
     "description": "A small utility library that aids working with strings in PHP.",
     "require-dev": {
-        "symfony/var-dumper": "^5.2"
+        "symfony/var-dumper": "^5.2",
+        "phpunit/phpunit": "^9.5"
     },
     "license": "MIT",
-    "require": {}
+    "autoload":
+    {
+        "psr-4":
+        {
+            "LH\\" : "src/"
+        }
+    }
 }
