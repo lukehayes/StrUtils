@@ -1,0 +1,9 @@
+{
+    "name": "lukehayes/str-utils",
+    "description": "A small utility library that aids working with strings in PHP.",
+    "require-dev": {
+        "symfony/var-dumper": "^5.2"
+    },
+    "license": "MIT",
+    "require": {}
+}
