@@ -9,4 +9,24 @@ functions, why not make them available in a simple to use API?
 
 ### Examples
 
-Examples coming soon.
+First, require the library using:
+
+'''
+require "vendor/autoload.php";
+use LH\StrUtils;
+
+'''
+
+then:
+
+'''
+StrUtils::PascalCase("string utils") # returns StringUtils
+'''
+
+'''
+StrUtils::SnakeCase("string utils") # returns string_utils
+'''
+
+'''
+StrUtils::Size("string utils") # returns 12
+'''
