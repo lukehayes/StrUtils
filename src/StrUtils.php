@@ -40,6 +40,18 @@ class StrUtils
     }
 
     /**
+     * Accept a string and return it in Camel Case form.
+     *
+     * @param string $str The string to be transformed into Camel Case.
+     * @static
+     * @return string
+     */
+    public static function CamelCase(string $str) : string
+    {
+        return lcfirst( self::PascalCase($str) );
+    }
+
+    /**
      * Get the size of the string.
      *
      * @param string $str The string to get the size of.

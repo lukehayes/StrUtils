@@ -20,6 +20,14 @@ final class StrUtilsTest extends TestCase
         );
     }
 
+    public function testCanReturnCamelCaseFromStr()
+    {
+        $this->assertEquals(
+            "stringUtilsUnitTestString",
+            LH\StrUtils::CamelCase("string utils unit test string")
+        );
+    }
+
     public function testCanReturnLengthOfString()
     {
         $this->assertIsInt(
