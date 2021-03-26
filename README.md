@@ -33,3 +33,7 @@ StrUtils::SnakeCase("string utils") # returns string_utils
 ```php
 StrUtils::Size("string utils") # returns 12
 ```
+
+```php
+StrUtils::ConvertToInt("A") # returns 65
+```
