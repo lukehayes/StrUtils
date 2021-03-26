@@ -1,5 +1,5 @@
 {
-    "name": "lh/str-utils",
+    "name": "lukehayes/str-utils",
     "keywords": ["string","helper","utilities"],
     "homepage": "https://github.com/lukehayes/StrUtils",
     "description": "String utility helper functions for PHP.",
