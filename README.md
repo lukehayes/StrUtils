@@ -23,6 +23,10 @@ StrUtils::PascalCase("string utils") # returns StringUtils
 ```
 
 ```php
+StrUtils::CamelCase("string utils") # returns stringUtils
+```
+
+```php
 StrUtils::SnakeCase("string utils") # returns string_utils
 ```
 
