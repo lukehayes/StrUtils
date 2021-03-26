@@ -11,21 +11,21 @@ functions, why not make them available in a simple to use API?
 
 First, require the library using:
 
-'''php
+```php
 require "vendor/autoload.php";
 use LH\StrUtils;
-'''
+```
 
 then:
 
-'''php
+```php
 StrUtils::PascalCase("string utils") # returns StringUtils
-'''
+```
 
-'''php
+```php
 StrUtils::SnakeCase("string utils") # returns string_utils
-'''
+```
 
-'''php
+```php
 StrUtils::Size("string utils") # returns 12
-'''
+```
