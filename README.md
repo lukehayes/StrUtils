@@ -16,24 +16,25 @@ require "vendor/autoload.php";
 use LH\StrUtils;
 ```
 
-then:
+then call the static methods:
 
+##### PascalCase
 ```php
 StrUtils::PascalCase("string utils") # returns StringUtils
 ```
-
+##### CamelCase
 ```php
 StrUtils::CamelCase("string utils") # returns stringUtils
 ```
-
+##### SnakeCase
 ```php
 StrUtils::SnakeCase("string utils") # returns string_utils
 ```
-
+##### Size
 ```php
 StrUtils::Size("string utils") # returns 12
 ```
-
+##### ConvertToInt
 ```php
 StrUtils::ConvertToInt("A") # returns 65
 ```
