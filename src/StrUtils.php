@@ -62,5 +62,36 @@ class StrUtils
     {
         return strlen($str);
     }
+
+    /**
+     * Randomize the case of the letters of a string.
+     *
+     * @param string $str The string to have its cast randomized. Passed by reference.
+     * @static
+     * @return string
+     */
+    public static function RandomizeCase(string &$str) : string
+    {
+        for($i = 0; $i <= strlen($str) - 1; $i++)
+        {
+            if(rand(0,1))
+            {
+                $str[$i] = strtoupper($str[$i]);
+            }
+        }
+    }
+
+    /**
+     * Convert a single character to its unsigned int representation.
+     *
+     * @param string $str The single string character to be converted.
+     * @static
+     * @return int
+     */
+    public static function ConvertToInt(string $str) : int
+    {
+        return ord($str);
+    }
+
 }
 

@@ -36,4 +36,13 @@ final class StrUtilsTest extends TestCase
 
         $this->assertSame(11, LH\StrUtils::Size("Foo Bar Baz"));
     }
+
+    public function testCanConvertStringToInt()
+    {
+        $this->assertIsInt(
+            LH\StrUtils::ConvertToInt("A")
+        );
+
+        $this->assertSame(65, LH\StrUtils::ConvertToInt("A"));
+    }
 }
