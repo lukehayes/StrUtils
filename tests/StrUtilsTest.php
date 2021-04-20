@@ -45,4 +45,9 @@ final class StrUtilsTest extends TestCase
 
         $this->assertSame(65, LH\StrUtils::ConvertToInt("A"));
     }
+
+    public function testCanUglifyString()
+    {
+        $this->assertSame("{data:100;id:'abc'}", LH\StrUtils::Uglify("{ data: 100; id:'abc' }"));
+    }
 }

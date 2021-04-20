@@ -93,5 +93,17 @@ class StrUtils
         return ord($str);
     }
 
+    /**
+     * Remove all of the spaces and newline characters from a string (Uglify it).
+     *
+     * @param string $str The string to be uglified.
+     * @static
+     * @return void,
+     */
+    public static function Uglify(string $str)
+    {
+       return preg_replace("/\n|\s/", "", $str);
+    }
+
 }
 
