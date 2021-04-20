@@ -38,3 +38,7 @@ StrUtils::Size("string utils") # returns 12
 ```php
 StrUtils::ConvertToInt("A") # returns 65
 ```
+##### Uglify
+```php
+StrUtils::Uglify(<A string containing code>)
+```
